@@ -2,6 +2,13 @@
 
 Export your CSV file to Mongo Db with this Python Code 
 
+
+<img width="803" alt="Screen Shot 2019-12-31 at 5 48 03 PM" src="https://user-images.githubusercontent.com/39345855/71635834-13103580-2bf6-11ea-9de1-cc515ca72e4c.png">
+
+* Tutorial : https://www.youtube.com/watch?v=CkckKPNbics&feature=youtu.be
+
+
+
 ```python
     mongodb = MongoDB(dBName = 'Dataset', collectionName='EnergyConsumption')
     mongodb.InsertData(path="AEP_hourly.csv")
